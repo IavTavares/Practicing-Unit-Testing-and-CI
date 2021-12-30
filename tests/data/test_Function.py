@@ -1,7 +1,7 @@
 import sys
   
 # adding data folder to the system path
-pathname=r"C:\Users\iavta\Programming Projects & Learning\Spyder\DataCamp - Unit Testing\src\data"
+pathname=r"src/data"
 # do not break the string above with \ it will not work...
 
 if not pathname in sys.path:

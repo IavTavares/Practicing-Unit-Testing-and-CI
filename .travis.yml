@@ -3,5 +3,8 @@ language: python
 python:
 - "3.9"
 
+install:
+- pip install pytest-cov codecov
+
 script:
-- pytest tests
+- pytest --cov=src tests

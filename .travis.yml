@@ -9,5 +9,5 @@ install:
 script:
 - pytest --cov=src tests
 
-after_sucess:
+after_success:
 - codecov

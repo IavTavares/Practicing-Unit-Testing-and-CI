@@ -8,3 +8,6 @@ install:
 
 script:
 - pytest --cov=src tests
+
+after_sucess:
+- codecov
